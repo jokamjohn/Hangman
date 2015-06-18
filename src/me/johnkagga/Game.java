@@ -10,6 +10,8 @@ public class Game {
 
     public Game(String answer) {
         mAnswer = answer;
+        mHits = "";
+        mMisses = "";
     }
     public boolean applyGuess(char letter){
         boolean isHit = mAnswer.indexOf(letter) >= 0;
