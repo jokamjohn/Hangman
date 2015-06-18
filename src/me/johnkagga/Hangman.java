@@ -7,13 +7,18 @@ public class Hangman {
         Game game = new Game("treehouse");
 
         //System.out.print( game.applyGuess('t'));
-        Prompter prompter = new Prompter(game);
-        boolean isHit = prompter.promptForGuess();
-        if (isHit){
-            System.out.println("you win");
-        }
-        else {
-            System.out.println("you lose");
+//        Prompter prompter = new Prompter(game);
+//        boolean isHit = prompter.promptForGuess();
+//        if (isHit){
+//            System.out.println("you win");
+//        }
+//        else {
+//            System.out.println("you lose");
+//        }
+
+        String example = "hello";
+        for (char letter : example.toCharArray()) {
+            System.out.print("\nThis is " + letter);
         }
 
     }
